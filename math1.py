@@ -1,5 +1,6 @@
-a = 5
-b = 3
+a = int(input("Enter a number:")) 
+b = int(input("Enter a second Number: "))
+
 c = a + b
 print(f"The sum of {a} and {b} is {c}")
 d = a * b
